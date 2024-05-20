@@ -1,0 +1,6 @@
+PS C:\Users\Admin> ollama list
+NAME            ID              SIZE    MODIFIED
+gemma:2b        b50d6c999e59    1.7 GB  About an hour ago
+llama2:latest   78e26419b446    3.8 GB  9 hours ago
+qwen:latest     d53d04290064    2.3 GB  8 hours ago
+PS C:\Users\Admin>
