@@ -1,0 +1,6 @@
+cd /var/www/html/
+sudo rm *
+sudo wget https://www.cpolar.com/static/downloads/meditation-app-master.tar.gz
+sudo tar xzf meditation-app-master.tar.gz
+sudo mv meditation-app-master/* .
+sudo rm -rf meditation-app-master meditation-app-master.tar.gz
