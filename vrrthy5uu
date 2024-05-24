@@ -1,0 +1,10 @@
+<a :href='"/user/downloadExcel"' >下载模板</a>
+ 
+//另一种情况是创建div标签，动态创建a标签：
+<div name="downloadfile" "downloadExcel()">下载</div>
+function downloadExcel() {
+    let a = document.createElement('a')
+    a.href ="/xxx/xxx"
+    a.click();
+} 
+ 
