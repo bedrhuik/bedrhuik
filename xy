@@ -1,0 +1,13 @@
+//设置X轴属性
+QValueAxis *axisX = new QValueAxis;
+chart->addAxis(axisX, Qt::AlignBottom);
+axisX->setRange(0, 60);
+axisX->setTitleText("Time(s)");
+series->attachAxis(axisX);
+ 
+//设置Y轴属性
+QValueAxis *axisY = new QValueAxis;
+chart->addAxis(axisY, Qt::AlignLeft);
+axisY->setRange(0, 60);
+axisY->setTitleText("料位");
+series->attachAxis(axisY);
