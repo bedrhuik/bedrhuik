@@ -1,0 +1,7 @@
+    //接收简单参数方法一:使用 HttpServletRequest 类来获取客户端发送过来的请求参数
+    //通过对象名.get
+    //这里注解为:请求路径
+    @RequestMapping("/simpleParam")
+    public String simpleParam(HttpServletRequest request){
+        String name = request.getParameter("name");
+        String age = request.getParameter("age");
