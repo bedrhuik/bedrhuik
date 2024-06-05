@@ -1,0 +1,29 @@
+import org.example.Pojo.Result;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+ 
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+ 
+@RestController
+public class MyCookie {
+ 
+    //当客户端第一次发送请求时，服务器响应头中响应一个 Set-Cookie 字段
+    @GetMapping("/getCookie")
+    public Result getCookie(HttpServletResponse response){
+        response.addCookie(new Cookie("getCookie","MyCookie"));
+        return Result.success();
+ 
+    }
+ 
+    //当客户端后续发送给请求时，请求头中都会自动携带 Cookie 字段
+    @GetMapping("/takeCookie")
+    public Result takeCookie(HttpServletRequest request){
+        String s = request.getHeader("Cookie");
+        System.out.println(s);
+        return Result.success();
+    }
+ 
+ 
+}
