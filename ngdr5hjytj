@@ -1,0 +1,22 @@
+<div class="site-content">
+			<div class="container">
+				<div class="box">
+				    <ul id="imglist">
+				        <li><img src="img/index/hua1.png" alt=""></li>
+				        <li><img src="img/index/hua2.png" alt=""></li>
+				        <li><img src="img/index/hua3.png" alt=""></li>
+				        <li><img src="img/index/hua4.png" alt=""></li>
+				        <li><img src="img/index/hua5.png" alt=""></li>
+				    </ul>
+				    <ul id="btnlist">
+				        <li class="btn active"></li>
+				        <li class="btn"></li>
+				        <li class="btn"></li>
+				        <li class="btn"></li>
+				        <li class="btn"></li>
+				    </ul>
+				</div>
+				<script src="js/lunb.js"></script>
+ 
+			</div>
+		</div>
