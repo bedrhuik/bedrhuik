@@ -1,0 +1,5 @@
+<link rel="stylesheet" href="tcplayer2021.css" />
+    <asp:TextBox ID="x_roomid" checkSchema="" runat="server" style="display:none"></asp:TextBox>
+ <script type="text/javascript" src="hls.min.0.12.4.js"> </script>
+ <script type="text/javascript" src="tcplayer.v4.min.js"> </script>
+<script type="text/javascript" language="javascript" src="jquery.js" ></script>
