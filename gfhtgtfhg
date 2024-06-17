@@ -1,0 +1,15 @@
+ <image wx:if="{{isShowDetailPrice}}" src="{{imgUrl}}/upload/20220608/orangeOn.png" lazy-load="true" class="orangeJt" bindtap="seeDetailPrice"></image>
+
+      <image wx:else src="{{imgUrl}}/upload/20220608/orangeBo.png" lazy-load="true" class="orangeJt" bindtap="seeDetailPrice"></image>
+    </view>
+
+  </view>
+
+  <view class="right-btnJs">
+    <view class="addOrder displayBox" bindtap="goBuy">结算</view>
+  </view>
+
+
+</view>
+
+<view class="bottomHeightBox"></view>
