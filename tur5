@@ -1,0 +1,13 @@
+a = 10
+b = a
+print(b)  # 输出10
+ 
+# 修改a的值
+a = 20
+print(b)  # 输出10，因为b是a的一个副本
+ 
+# 使用列表来模拟指针行为
+list_a = [10]
+list_b = list_a
+list_a[0] = 20
+print(list_b[0])  # 输出20，因为list_b和list_a引用同一个列表对象
